@@ -1,0 +1,9 @@
+{
+  "name": "grant-management-portal",
+  "version": "1.0.0",
+  "description": "Secure Grant Management Portal with RBAC and OAuth 2.0",
+  "scripts": {
+    "test": "python -m pytest -v",
+    "test:coverage": "python -m pytest --cov=app --cov-report=term-missing --cov-report=html:coverage --cov-fail-under=70 -v"
+  }
+}
